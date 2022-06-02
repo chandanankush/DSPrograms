@@ -1,5 +1,7 @@
 import UIKit
 
+//: search character/word from given paragraph
+
 func searchCountUsingIndexShifting(from input: String, searchParam: String) -> Int {
     
     guard !searchParam.isEmpty else {
@@ -31,5 +33,5 @@ func searchCountUsingIndexShifting(from input: String, searchParam: String) -> I
     return matchCount
 }
 
-let countReturned = searchCountUsingIndexShifting(from: "gudia guddi duggi", searchParam: " ")
+let countReturned = searchCountUsingIndexShifting(from: "this is sample file", searchParam: " ")
 print(countReturned)

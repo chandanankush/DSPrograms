@@ -1,7 +1,6 @@
 import UIKit
 
-
-// missing number in array of 1-100
+//: missing number in array of 1-100
 
 // method - 1
 let arrA = [0,1,3,4,5]
@@ -22,8 +21,6 @@ func findMissingNo(arrA: [Int]) -> [Int] {
 let numberArray = [11,12,14,15,18]
 let missing1 = findMissingNo(arrA: numberArray)
 print("Missing1: \(missing1)")
-
-
 
 // method - 3
 func findMissingNo2(arrA: [Int]) -> [Int] {
