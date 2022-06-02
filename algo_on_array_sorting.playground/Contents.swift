@@ -2,6 +2,7 @@ import UIKit
 
 import Foundation
 
+// Array sorting
 func sortingArray(using inputArray: [Int]) -> [Int] {
     
     var unsortedArray = inputArray
